@@ -28,7 +28,9 @@ let svgHamburger2 = document.querySelector('.ham2');
 let headerLogo = document.querySelector('.header_logo');
 let headerText = document.querySelectorAll('.header_text a');
 
-let clickBtn = document.querySelector('.nav_item:nth-child(3) .click_btn');
+let clickBtn1 = document.querySelector('.nav_item:nth-child(3) .click_btn');
+let clickBtn2 = document.querySelector('.header_text .click_btn');
+
 
 /* 헤더 마우스 올렸을 때 헤더만 배경 화이트 */
 header.addEventListener('mouseenter', function(){
@@ -43,7 +45,8 @@ header.addEventListener('mouseenter', function(){
   })
   svgHamburger1.setAttribute('fill', 'var(--black1)');
   svgHamburger2.setAttribute('fill', 'var(--black1)');
-  clickBtn.style.filter = 'none';
+  clickBtn1.style.filter = 'none';
+  clickBtn2.style.filter = 'none';
 });
 
 /* 헤더 마우스 뗐을 때 */
@@ -59,7 +62,8 @@ header.addEventListener('mouseleave', function (){
   })
   svgHamburger1.setAttribute('fill', 'var(--white)');
   svgHamburger2.setAttribute('fill', 'var(--white)');
-  clickBtn.style.filter = '';
+  clickBtn1.style.filter = '';
+  clickBtn2.style.filter = '';
 });
 
 
@@ -76,7 +80,8 @@ navMenu.addEventListener('mouseenter', function(){
   })
   svgHamburger1.setAttribute('fill', 'var(--black1)');
   svgHamburger2.setAttribute('fill', 'var(--black1)');
-    clickBtn.style.filter = 'none';
+    clickBtn1.style.filter = 'none';
+    clickBtn2.style.filter = 'none';
 })
 
 /* 내비게이션 마우스 뗐을 때 */
@@ -92,7 +97,8 @@ navMenu.addEventListener('mouseleave', function(){
   })
   svgHamburger1.setAttribute('fill', 'var(--white)');
   svgHamburger2.setAttribute('fill', 'var(--white)');
-    clickBtn.style.filter = '';
+    clickBtn1.style.filter = '';
+    clickBtn2.style.filter = '';
 })
 
 
