@@ -1,35 +1,3 @@
-:root{
-  /* color */
-  --primary: #0052bd;
-  --secondary: #003b88;
-  --lightBlue: #c7def6;
-  --yellow: #ffcf3d;
-  --orange: #ff6f1a;
-  --red: #eb4444;
-  --lightRed: #ffbfbf;
-  --black1: #000000;
-  --black2: #1d1d1d;
-  --black3: #282828;
-  --white: #ffffff;
-  --gray1: #333333;
-  --gray2: #7b7b7b;
-  --gray3: #bdbdbd;
-  --gray4: #d9d9d9;
-  --gray5: #f0f0f0;
-
-  /* font size */
-  --font12: 0.75rem;
-  --font14: 0.88rem;
-  --font16: 1rem;
-  --font18: 1.13rem;
-  --font20: 1.25rem;
-  --font24: 1.5rem;
-  --font28: 1.75rem;
-  --font36: 2.25rem;
-  --font44: 2.75rem;
-  --font48: 3rem;
-}
-
 /* 공통 */
 
 .inner{
@@ -1681,6 +1649,18 @@ display: flex;
 
 /* 클릭 유도 버튼 개별 설정 */
 
+
+.mnav_top{
+  position: relative;
+}
+
+.mnav_top .click_btn{
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(251deg) brightness(106%) contrast(101%);
+  left: 59%;
+  -webkit-transform: translateY(25px);
+  transform: translateY(25px);
+}
+
 .nav_item:nth-child(3){
   position: relative;
 }
@@ -1729,6 +1709,33 @@ display: flex;
 
 .mnav_wrap li:nth-child(2) .msub_content .click_btn{
   left: 80px;
+}
+
+.header_text{
+  position: relative;
+}
+
+.header_text .click_btn{
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(251deg) brightness(106%) contrast(101%);
+  left: 20px;
+  -webkit-transform: translateY(29px);
+  transform: translateY(29px);
+}
+
+.header_text::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #4B9AFF;
+  border-radius: 50%;
+  top: 50%;
+  left: 21px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  animation: circle 1s linear infinite;
+  z-index: -1;
 }
 
 .sub_column ul h5, .sub_column ul li{
