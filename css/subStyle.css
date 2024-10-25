@@ -779,10 +779,12 @@
 }
 
 .round_wrap{
+  width: 100%;
   display: none;
 }
 
 .parkname_wrap{
+  width: 100%;
   display: none;
 }
 
