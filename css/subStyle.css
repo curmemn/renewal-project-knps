@@ -16,6 +16,10 @@
   gap: 40px;
 }
 
+.header_text .click_btn{
+  filter: none;
+}
+
 .header_search{
   position: relative;
 }
@@ -621,7 +625,6 @@
 }
 
 #round_tab, #parkname_tab{
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -780,12 +783,10 @@
 }
 
 .round_wrap{
-  width: 100%;
   display: none;
 }
 
 .parkname_wrap{
-  width: 100%;
   display: none;
 }
 
