@@ -1,0 +1,231 @@
+/* swiper custom common*/
+.swiper-slide{
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.swiper_btn{
+  z-index: 1;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  width: 20px;
+  height: 20px;
+  color: transparent;
+}
+
+.swiper-button-next{
+  background: url(../image/icon_arrow_right.svg) no-repeat center;
+  filter: brightness(0%);
+  background-size: 8px 14px;
+}
+.swiper-button-prev{
+  background: url(../image/icon_arrow_left.svg) no-repeat center;
+  filter: brightness(0%);
+  background-size: 8px 14px;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
+  opacity: 1;
+}
+
+.swiper-pagination{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 85px;
+}
+.swiper-pagination-current, .swiper-pagination-total{
+  font-size: var(--font18);
+  font-weight: 600;
+  width: var(--font20);
+}
+.swiper-pagination-current{
+  color: var(--primary);
+} 
+
+.fraction_line{
+  height: 0;
+  width: 25px;
+  border-top: 1px solid var(--black1);
+}
+
+.swiper-button-play{
+  cursor: pointer;
+  display: none;
+  background: url(../image/icon_play.svg) no-repeat center;
+  background-size: cover;
+}
+
+
+.swiper-button-pause{
+  cursor: pointer;
+  background: url(../image/icon_pause.svg) no-repeat center;
+  background-size: cover;
+}
+
+/* 배너 슬라이드 */
+
+.banner_slide{
+  margin: 0;
+  position: relative;
+  display: block;
+  width: 660px;
+  height: 400px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.banner_slide .swiper_btn{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 30px 0 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.banner_slide .swiper-button-next, .banner_slide .swiper-button-prev{
+  position: absolute;
+  top: 75%;
+}
+
+.banner_slide .swiper-button-next{
+  right: 15px;
+}
+
+.banner_slide .swiper-button-prev{
+  left: 110px;
+}
+
+.banner_slide .swiper-pagination{
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  transform: translateY(-50%);
+}
+
+.banner_slide .fraction_line{
+  transform: translateX(-1px);
+}
+
+.banner_slide .swiper-button-play, .banner_slide .swiper-button-pause{
+  width: 11px;
+  height: 14px;
+  position: absolute;
+  left: 144px;
+  top: 19px;
+}
+
+/* 알림판 슬라이드 */
+.news_container{
+  position: relative;
+}
+
+.news_banner{
+  width: 415px;
+  height: 100%;
+}
+
+.news_slide{
+  position: absolute;
+  width: 415px;
+  height: 550px;
+  padding-top: 90px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.news_container .swiper-pagination-current, .news_container .swiper-pagination-total{
+  font-size: var(--font24);
+}
+
+.news_slide .swiper_btn{
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  top: 8px;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.news_slide .swiper-button-next, .news_slide .swiper-button-prev{
+  width: 20px;
+  height: 20px;
+  background-size: 12px;
+  margin-top: -11px;
+}
+
+.news_slide .swiper-button-prev{
+  left: 100px;
+}
+.news_slide .swiper-button-next{
+  left: 180px;
+}
+
+.news_slide .swiper-button-play, .news_slide .swiper-button-pause{
+  position: absolute;
+  width: 15px;
+  height: 18px;
+  left: 143px;
+  background-size: cover;
+}
+
+/* related site */
+.site_slide{
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 900px;
+}
+
+.site_slide .swiper-wrapper{
+  display: flex;
+}
+
+.site_slide .swiper-slide{
+  border-radius: 0;
+  position: relative;
+  text-align: center;
+}
+
+.site_wrap .swiper_btn{
+  position: absolute;
+  display: flex;
+  width: 100px;
+  left: 1180px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(273deg) brightness(107%) contrast(101%);
+}
+
+.site_wrap .swiper-button-play, .site_wrap .swiper-button-pause{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background-size: contain;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.site_wrap .swiper-button-next, .site_wrap .swiper-button-prev{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  top: 38px;
+}
+
+.site_wrap .swiper-button-prev{
+  left: 0;
+}
+.site_wrap .swiper-button-next{
+  right: 0;
+}
