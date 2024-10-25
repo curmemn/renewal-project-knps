@@ -1,4 +1,33 @@
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-gov.min.css");
+:root{
+  /* color */
+  --primary: #0052bd;
+  --secondary: #003b88;
+  --lightBlue: #c7def6;
+  --yellow: #ffcf3d;
+  --red: #eb4444;
+  --lightRed: #ffbfbf;
+  --black1: #000000;
+  --black2: #1d1d1d;
+  --black3: #282828;
+  --white: #ffffff;
+  --gray1: #333333;
+  --gray2: #7b7b7b;
+  --gray3: #bdbdbd;
+  --gray4: #d9d9d9;
+  --gray5: #f0f0f0;
+
+  /* font size */
+  --font12: 0.75rem;
+  --font14: 0.88rem;
+  --font16: 1rem;
+  --font18: 1.13rem;
+  --font20: 1.25rem;
+  --font24: 1.5rem;
+  --font28: 1.75rem;
+  --font36: 2.25rem;
+  --font44: 2.75rem;
+  --font48: 3rem;
+}
 
 
   @font-face {
