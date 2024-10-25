@@ -49,6 +49,10 @@ header.on{
   gap: var(--font20);
 }
 
+.header_text ul li{
+  z-index: 1;
+}
+
 .header_text a{
   color: var(--white);
 }
@@ -1735,7 +1739,6 @@ display: flex;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   animation: circle 1s linear infinite;
-  z-index: -1;
 }
 
 .sub_column ul h5, .sub_column ul li{
