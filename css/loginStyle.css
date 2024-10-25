@@ -166,6 +166,8 @@ input[type="checkbox"]:checked{
 
   .login_wrap{
     padding: 0 30px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 
   .login_box{
