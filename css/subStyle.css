@@ -549,10 +549,6 @@
   border-radius: 50px;
 }
 
-.gallery_tab::before{
-  content: '';
-
-}
 
 .round_filter{
   position: relative;
