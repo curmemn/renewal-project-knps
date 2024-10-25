@@ -60,20 +60,46 @@
         <li> 클릭한 메뉴만 펼쳐지고, 이외의 메뉴는 최소 너비로 접혀지는 메뉴를 구현했습니다.</li>
        <br>
         <h3>📌 탭메뉴 구현</h3>
-        <img width="85%" src="https://github.com/user-attachments/assets/115a7555-9c67-48a6-a656-8a51d7ca45b9" />
+        <img width="60%" src="https://github.com/user-attachments/assets/115a7555-9c67-48a6-a656-8a51d7ca45b9" />
         <img width="85%" src="https://github.com/user-attachments/assets/5a566300-5623-4c22-98be-f3667e54a1e0" />
         <li> 클릭한 탭 내의 콘텐츠만 노출되는 기능을 구현했습니다.</li>
         <br>
-        <h3>📰서브 페이지📰</h3>
-        <h3>📌 공지사항</h3>
-        <li>개발 중입니다.</li>
-        <li>페이지네이션 기능이 있습니다.</li>
-        <li>전체 리스트를 10개씩 끊어 보이게 하는 기능을 구현했습니다.</li>
+        <h3>📌 드롭다운 커스텀</h3>
+        <img width="50%" src="https://github.com/user-attachments/assets/47b99d48-f1e3-4ef4-bfac-d5d8972f98e9" />
+        <li> 드롭다운 기능을 커스텀했습니다.</li>
         <br>
-        <h3>📌 국립공원사진전</h3>
-        <li>개발 중입니다.</li>
-        <li>탭메뉴 기능</li>
-        <li>각 탭버튼은 필터 기능을 하며, 탭버튼 선택 시 보여지는 아이템이 변화합니다.</li>
+        <h3>📰서브 페이지📰</h3>
+        <h3>📌 브레드크럼</h3>
+        <img width="85%" src="https://github.com/user-attachments/assets/3c717725-1668-42dd-a51c-39513084d415" />
+        <li>브레드크럼의 각 버튼을 누르면 메뉴가 드롭다운 되고, 해당 메뉴로 이동할 수 있는 기능을 구현했습니다.</li>
+        <br>
+        <h3>📌 총 개수 자바스크립트로 가져오기</h3>
+        <img width="30%" src="https://github.com/user-attachments/assets/e59611e4-24ae-44aa-be59-4f9fb990a660" />
+        <li>총 리스트 수를 자바스크립트로 가져와, 리스트 수가 늘어나면 자동으로 카운트됩니다.</li>
+        <br>
+        <h3>📌 페이지네이션</h3>
+        <img width="85%" src="https://github.com/user-attachments/assets/6720411e-b896-4d0f-bf22-2cd42811aea9" />
+        <li>전체 리스트 중에서 특정 구간만큼 끊어 보이도록 하고, 페이지네이션을 넘겨서 다음 리스트를 볼 수 있도록 구현했습니다.</li>
+        <li>이전, 다음, 처음, 끝 버튼 기능이 있습니다.</li>
+        <br>
+        <h3>📌 만족도 조사(라디오)</h3>
+        <img width="85%" src="https://github.com/user-attachments/assets/39c75e95-a0f9-4757-83da-cc030da62eb1" />
+        <li>라디오 버튼으로 만족도 응답을 할 수 있게 했습니다.</li>
+        <li>응답 선택 후 제출 버튼을 누르면 해당 응답을 alert으로 리턴하는 기능을 구현했습니다.</li>
+        <br>
+        <h3>📌 자바스크립트 검색 필터 기능</h3>
+        <img width="85%" src="https://github.com/user-attachments/assets/02a8fc7c-ee50-4e4d-b3cd-784dcbb9cd42" />
+        <li>각 버튼은 필터 기능을 하며, 버튼 선택 시 보여지는 아이템이 변화합니다.</li>
+        <li>전체 선택과 전체 삭제가 가능합니다.</li>
+        <br>
+        <h3>📌 로그인 페이지</h3>
+        <img width="60%" src="https://github.com/user-attachments/assets/5a79b8d6-ba47-4564-87ba-aaac075e99f5" />
+        <li>input 태그를 활용하여 로그인 페이지를 구현했습니다.</li>
+        <li>닫기 버튼을 누르면 메인 페이지가 아닌 이전 페이지로 돌아갑니다.</li>
+        <br>
+        <h3>📰반응형📰</h3>
+        <h3>📌 메인 페이지</h3>
+        <li>추후 추가</li>
         <br>
         <h3>📌 develop issues</h3>
         👉 <a href="https://hollow-lillipilli-38d.notion.site/develop-issues-12213101bcd180c48b2efad509f1f5c7">Notion 바로가기</a>
