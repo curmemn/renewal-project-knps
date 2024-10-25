@@ -1005,10 +1005,10 @@
     padding-bottom: 30px;
     border-top: none;
   }
-  .page_title{
+  .gallery_page{
     position: relative;
   }
-  .page_title::after{
+  .gallery_page::after{
     content: '';
     position: absolute;
     display: block;
