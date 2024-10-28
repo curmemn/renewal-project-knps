@@ -1651,6 +1651,21 @@ display: flex;
   }
 }
 
+@keyframes click2{
+  0%{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50%{
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100%{
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+}
+
 /* 클릭 유도 버튼 개별 설정 */
 
 
@@ -1763,20 +1778,7 @@ display: flex;
 
 .tab_content .click_btn{
   position: absolute;
-  animation: click 1s ease-in infinite;
-  -webkit-transform: translate(737px, -482px);
-  transform: translate(737px, -482px);
-}
-
-#tab1::before{
-  content: '';
-  display: block;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: #4B9AFF;
-  border-radius: 50%;
-  top: -129px;
-  left: 739px;
-  animation: circle 1s linear infinite;
+  animation: click2 1s ease-in infinite;
+  right: -13px;
+  top: -114px;
 }
